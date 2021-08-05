@@ -1,0 +1,29 @@
+  {
+margin:0;
+padding:0;
+width: 100%;
+}
+
+.grid{  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width:100%
+}
+
+.grid1{
+    
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   width:100%
+}
+
+.menu{
+    position: fixed;
+    background:white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;   
+}
+
+ 
